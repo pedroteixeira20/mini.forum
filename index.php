@@ -24,9 +24,9 @@
 				<h4>Opine sobre este assunto (os comentários estão sujeitos a aprovação de um administrador):</h4>
 				<form method="post">
 					
-					<input class="comment" type="text" name = "com_name" placeholder = "Nome*"><br>
-					<input class="comment" type="email" name = "com_email" placeholder = "Email*"><br>
-					<textarea class="comment" name="comment" maxlength="500" placeholder = "Comentário*"></textarea>
+					<input required class="comment" type="text" name = "com_name" placeholder = "Nome*"><br>
+					<input required class="comment" type="email" name = "com_email" placeholder = "Email*"><br>
+					<textarea required class="comment" name="comment" maxlength="500" placeholder = "Comentário*"></textarea>
 					<input type="submit" value = "Comentar">
 				<?php include_once "includes/queries/inserir_comentario.inc.php";?>		
 

@@ -17,8 +17,8 @@
 				<?php include "includes/db/db_connect.inc.php"; ?>
 				<form method="post" id="login">
 					
-					<input class="login_field" type="text" id="adm_user" name = "adm_user" placeholder = "Utilizador*"><br>
-					<input class="login_field" type="password" id="adm_password" name = "adm_password" placeholder = "Senha*"><br>
+					<input class="login_field" type="text" id="adm_user" name = "adm_user" placeholder = "Utilizador*" required><br>
+					<input class="login_field" type="password" id="adm_password" name = "adm_password" placeholder = "Senha*" required><br>
 					<input type="submit" value = "Entrar">		
 					<?php include "includes/queries/login.inc.php";?>
 				</form>	
