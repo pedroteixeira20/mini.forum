@@ -1,0 +1,57 @@
+input
+{
+	width: 15rem;
+	height: 2rem;
+}
+
+textarea
+{
+	width: 15rem;
+	height: 6rem;
+}
+
+.heading
+{
+	text-align: center;
+}
+.content
+{
+	margin-left: 1rem;
+}
+.comment
+{
+	display: block;
+	margin-bottom: 2px;
+	
+}
+.comentarios
+{
+
+}
+.comentario
+{
+	border: 1px solid black;
+	width: 50%;
+	margin-bottom: 1rem;
+}
+.com_content
+{
+	margin-left: 1rem;
+}
+.admin-login  
+{
+
+}
+.login_field
+{
+	display: block;
+	margin-bottom: 0.5px;
+}
+.admin_aprov
+{
+	color: blue;
+}
+.admin_remov
+{
+	color: red;
+}
